@@ -1,0 +1,88 @@
+\documentclass[12pt, a4paper]{article}
+
+\usepackage{fancyhdr}
+\usepackage[left=4cm, right=4cm, top=4cm, bottom=4cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath, amssymb, amsthm, amsfonts}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{subcaption}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{bbm}
+\newcommand{\coursename}{EE 541 Computational Introduction to Deep Learning}
+\newcommand{\doctitle}{Project Report}
+\newcommand{\name}{Abid Hassan, Benjamin Fein-Ashley}
+\newcommand{\todaydate}{\today}
+\DeclareMathOperator*{\argmin}{arg\,min}
+\DeclareMathOperator*{\argmax}{arg\,max}
+
+% \pagestyle{fancy}
+% \lhead{\textbf{\doctitle}}
+% \chead{\name}
+% \rhead{\todaydate}
+
+\begin{document}
+
+
+\begin{center}
+\small
+\textbf{\coursename} \\
+\Large
+\bfseries
+\doctitle \\
+\vspace{0.8cm}
+\small
+{\normalfont\small \name}
+\end{center}
+
+\thispagestyle{plain}
+
+\noindent
+
+\newpage
+
+\begin{section}{Introduction}
+    In this work, we utilize several deep learning algorithms to classify American Sign Language (ASL) alphabet letters from images, as well as real-time classification using live video. The dataset used for this project is the ASL Alphabet dataset, which contains images of hand signs representing each letter of the ASL alphabet. The goal is to build a model that can accurately classify these hand signs into their corresponding letters.
+    We examine ResNet18, ResNet34, and ResNet50, and DenseNet121 architectures, and compare their performance in terms of accuracy on a test dataset provided separately from the training dataset. The training data set contains 87,000 images which are 200x200 pixels. There are 29 classes, of which 26 are for the letters A-Z and 3 classes for SPACE, DELETE and NOTHING. The dataset is provided on \href{https://www.kaggle.com/datasets/grassknoted/asl-alphabet?resource=download}{kaggle}
+\end{section}
+
+\begin{section}{Methods}
+    \subsection{Data Preprocessing}
+    The dataset is preprocessed by resizing the images to a uniform size of 200x200 pixels and normalizing the pixel values to be between 0 and 1. Data augmentation techniques such as rotation, flipping, and zooming are applied to increase the diversity of the training data and improve the model's generalization ability.
+
+    \subsection{Model Architecture}
+    We implement several deep learning architectures, including ResNet18, ResNet34, ResNet50, and DenseNet121. These architectures are chosen for their proven performance in image classification tasks. The models are trained using the Adam optimizer with a learning rate of 0.01 and a batch size of 32. The loss function used is categorical cross-entropy.
+
+    \subsection{Training and Evaluation}
+    The models are trained on the training dataset for 20 epochs. The provided training data is randomly split in an 80 to 20 ratio of training to validation data. The model at the epoch with best validation accuracy is saved as the final model to be evaluated. The performance of each model is evaluated on a separate test dataset, and metrics such as accuracy, precision, recall are calculated.
+\end{section}
+
+\begin{section}{Results}
+    The results of the experiments are summarized in Table \ref{tab:results}. 
+    \begin{table}[H]
+        \centering
+        \caption{Model Performance on Test Dataset}
+        \label{tab:results}
+        \begin{tabular}{|c|c|c|c|c|}
+            \hline
+            Model & Accuracy & Precision & Recall \\
+            \hline
+            ResNet18 &--\% & -- & -- \\
+            ResNet34 & --\% & -- & --  \\
+            ResNet50 & --\% & -- & --  \\
+            DenseNet121 & --\% & -- & --  \\
+            \hline
+        \end{tabular}
+    \end{table}
+
+    The models were also tested on live video input, achieving real-time classification 
+\end{section}
+\end{document}
+
+
+
+
