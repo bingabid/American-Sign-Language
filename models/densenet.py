@@ -119,11 +119,11 @@ class MyDenseNet(DenseNet):
     def __init__(self, num_classes = 29):
         super(MyDenseNet, self).__init__()
         self.avgpool = nn.AdaptiveAvgPool2d((1, 1))
-        self.output_layer = nn.Linear(self.in_planes, num_classes)
+        self.fc = nn.Linear(self.in_planes, num_classes)
         
     def forward(self, x):
         x = self.encoder(x)
         x = self.avgpool(x)
         x = x.view(-1, self.in_planes)
-        x = self.output_layer(x)
+        x = self.fc(x)
         return x
