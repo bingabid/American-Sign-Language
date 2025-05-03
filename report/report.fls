@@ -663,6 +663,17 @@ INPUT C:\Users\Benjamin\AppData\Local\Programs\MiKTeX\tex\latex\bbm\bbm.sty
 INPUT C:\Users\Benjamin\AppData\Local\Programs\MiKTeX\tex\latex\bbm\bbm.sty
 INPUT C:\Users\Benjamin\AppData\Local\Programs\MiKTeX\tex\latex\bbm\bbm.sty
 INPUT C:\Users\Benjamin\AppData\Local\Programs\MiKTeX\tex\latex\bbm\bbm.sty
+INPUT C:\Users\Benjamin\AppData\Local\Programs\MiKTeX\tex\latex\cite\cite.sty
+INPUT C:\Users\Benjamin\AppData\Local\Programs\MiKTeX\tex\latex\cite\cite.sty
+INPUT C:\Users\Benjamin\AppData\Local\Programs\MiKTeX\tex\latex\cite\cite.sty
+INPUT C:\Users\Benjamin\AppData\Local\Programs\MiKTeX\tex\latex\cite\cite.sty
+INPUT C:\Users\Benjamin\AppData\Local\Programs\MiKTeX\tex\latex\cite\cite.sty
+INPUT C:\Users\Benjamin\AppData\Local\Programs\MiKTeX\tex\latex\cite\cite.sty
+INPUT C:\Users\Benjamin\AppData\Local\Programs\MiKTeX\tex\latex\cite\cite.sty
+INPUT C:\Users\Benjamin\AppData\Local\Programs\MiKTeX\tex\latex\cite\cite.sty
+INPUT C:\Users\Benjamin\AppData\Local\Programs\MiKTeX\tex\latex\cite\cite.sty
+INPUT C:\Users\Benjamin\AppData\Local\Programs\MiKTeX\tex\latex\cite\cite.sty
+INPUT C:\Users\Benjamin\AppData\Local\Programs\MiKTeX\tex\latex\cite\cite.sty
 INPUT C:\Users\Benjamin\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\Benjamin\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\Benjamin\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
@@ -742,6 +753,12 @@ INPUT C:\Users\Benjamin\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsb.fd
 INPUT C:\Users\Benjamin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\Benjamin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\Benjamin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+INPUT C:\Users\Benjamin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+INPUT .\report.bbl
+INPUT report.bbl
+INPUT .\report.bbl
+INPUT report.bbl
+INPUT C:\Users\Benjamin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti12.tfm
 INPUT report.aux
 INPUT .\report.out
 INPUT .\report.out
@@ -753,3 +770,5 @@ INPUT C:\Users\Benjamin\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfont
 INPUT C:\Users\Benjamin\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Users\Benjamin\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
 INPUT C:\Users\Benjamin\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
+INPUT C:\Users\Benjamin\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti12.pfb
+INPUT C:\Users\Benjamin\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti12.pfb

@@ -13,6 +13,7 @@
 \usepackage{enumitem}
 \usepackage{mathtools}
 \usepackage{bbm}
+\usepackage{cite}
 \newcommand{\coursename}{EE 541 Computational Introduction to Deep Learning}
 \newcommand{\doctitle}{Project Report}
 \newcommand{\name}{Abid Hassan, Benjamin Fein-Ashley}
@@ -47,7 +48,7 @@
 
 \begin{section}{Introduction}
     In this work, we utilize several deep learning algorithms to classify American Sign Language (ASL) alphabet letters from images, as well as real-time classification using live video. The dataset used for this project is the ASL Alphabet dataset, which contains images of hand signs representing each letter of the ASL alphabet. The goal is to build a model that can accurately classify these hand signs into their corresponding letters.
-    We examine ResNet18, ResNet34, and ResNet50, and DenseNet121 architectures, and compare their performance in terms of accuracy on a test dataset provided separately from the training dataset. The training data set contains 87,000 images which are 200x200 pixels. There are 29 classes, of which 26 are for the letters A-Z and 3 classes for SPACE, DELETE and NOTHING. The dataset is provided on \href{https://www.kaggle.com/datasets/grassknoted/asl-alphabet?resource=download}{kaggle}
+    We examine ResNet18 and DenseNet121 architectures, and compare their performance in terms of accuracy on a test dataset provided separately from the training dataset. The training data set contains 87,000 images which are 200x200 pixels. There are 29 classes, of which 26 are for the letters A-Z and 3 classes for SPACE, DELETE and NOTHING. The dataset is provided on \href{https://www.kaggle.com/datasets/grassknoted/asl-alphabet?resource=download}{kaggle}
 \end{section}
 
 \begin{section}{Methods}
@@ -69,18 +70,53 @@
         \label{tab:results}
         \begin{tabular}{|c|c|c|c|c|}
             \hline
-            Model & Accuracy & Precision & Recall \\
+            Model & Test Accuracy & Precision & Recall \\
             \hline
-            ResNet18 &--\% & -- & -- \\
-            ResNet34 & --\% & -- & --  \\
-            ResNet50 & --\% & -- & --  \\
-            DenseNet121 & --\% & -- & --  \\
+            ResNet18 &100\% & -- & -- \\
+            % ResNet34 & --\% & -- & --  \\
+            % ResNet50 & --\% & -- & --  \\
+            DenseNet121 & 99\% & -- & --  \\
             \hline
         \end{tabular}
     \end{table}
 
     The models were also tested on live video input, achieving real-time classification 
 \end{section}
+
+\section{Literature Review}
+Principal Component Analysis (PCA) combined with SVM classification achieved around 94\% accuracy, demonstrating a baseline for evaluating more complex deep learning architectures \cite{mdpi2023resnet}.
+
+A study utilizing multiple deep learning models, including ResNet-50 and EfficientNet, showed significant success using transfer learning techniques, achieving accuracies up to 99.98\% with ResNet-50 \cite{mdpi2023resnet}.
+
+MobileNetV2 was employed as a lightweight architecture, achieving 98.77\% accuracy, suitable for real-time classification on resource-constrained devices \cite{techscience2022mobilenet}.
+
+SqueezeNet was another compact neural network architecture used for ASL recognition on mobile platforms, achieving a recognition accuracy of 83.29\% \cite{arxiv2019squeezenet}.
+
+A convolutional neural network combined with Mediapipe hand landmark detection demonstrated real-time performance with an accuracy of 99.95\% \cite{arxiv2023cnnmediapipe}.
+
+A DeepCNN model combined with extensive data augmentation techniques was proposed, achieving 99.67\% accuracy \cite{ncbi2022deepcnn}.
+
+A novel hardware-based approach used neuromorphic sensors coupled with an artificial neural network implemented on an FPGA, achieving 79.58\% accuracy \cite{mdpi2017neuromorphic}. Although the accuracy of this method is lower than others, it represents a more practical system for real time application.
+
+
+\begin{table}[H]
+\centering
+\caption{Accuracy Results from the Literature Review}
+\label{tab:litreview}
+\begin{tabular}{|l|c|}
+\hline
+Model & Accuracy (\%) \\
+\hline
+ResNet-50 (Transfer Learning) \cite{mdpi2023resnet} & 99.98 \\
+MobileNetV2 \cite{techscience2022mobilenet} & 98.77 \\
+DeepCNN \cite{ncbi2022deepcnn} & 99.67 \\
+Neuromorphic Approach \cite{mdpi2017neuromorphic} & 79.58 \\
+PCA + SVM \cite{mdpi2023resnet} & 94.00 \\
+\hline
+\end{tabular}
+\end{table}
+\bibliographystyle{IEEEtran}
+\bibliography{references}
 \end{document}
 
 
