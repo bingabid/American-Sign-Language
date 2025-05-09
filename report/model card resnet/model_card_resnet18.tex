@@ -24,7 +24,29 @@
 
 \section{Model Overview}
 \textbf{Architecture:} ResNet18 employs residual (skip) connections, which help mitigate the vanishing gradient problem during training of deep networks.\\[0.3cm]
-\textbf{Training Data:} The model is trained on the ASL Alphabet dataset comprising 87,000 images, each resized to 200x200 pixels across 29 classes (26 letters plus 3 additional classes to aid live classification)\\[0.3cm]
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{../../plots/Original-ResNet-18-Architecture.png}
+    \caption{ResNet18 Architecture  \cite{deep_learning_alzheimers}}
+    \label{fig:resnet18_architecture}
+\end{figure}
+\textbf{Training Data:} The model is trained on the ASL Alphabet dataset containing 87,000 images resized to 200x200 pixels, spanning 29 classes (26 letters plus 3 additional classes to aid live classification). 10 percent is held out as a test set, so 78,300 images are used in training.
+\begin{table}[H]
+    \centering
+    \caption{Overview of Data Split and Image Specifications}
+    \label{tab:datasplit}
+    \begin{tabular}{|l|cl|}
+    \hline
+    \textbf{Category} & \textbf{Number of Images} & \textbf{Percentage} \\
+    \hline
+    Overall Dataset & 87,000 & 100\% \\
+    Training Set & 78,300 & 90\% \\
+    \quad Training (90\%) & 62,640 & 72\% \\ 
+    \quad Validation (10\%) & 15,660 & 18\% \\ 
+    Test Set & 8,700 & 10\% \\
+    \hline
+    \end{tabular}
+    \end{table}
 \textbf{Hyperparameters:}
 \begin{itemize}
     \item Optimizer: Adam
@@ -33,12 +55,6 @@
     \item Batch Size: 64
     \item Epochs: 20 (best validation accuracy selected)
 \end{itemize}
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=\textwidth]{../../plots/Original-ResNet-18-Architecture.png}
-    \caption{ResNet18 Architecture  \cite{deep_learning_alzheimers}}
-    \label{fig:resnet18_architecture}
-\end{figure}
 \section{Intended Use}
 ResNet18 is an instance of the ResNet architecture designed for image classification. Our ResNet18 implementation uses a pre-trained ResNet18 model with transfer learning to classify images of American Sign Language (ASL) letters. The model is intended for:
 \begin{itemize}

@@ -15,7 +15,7 @@
 \usepackage{bbm}
 \usepackage{cite}
 \newcommand{\coursename}{EE 541 Computational Introduction to Deep Learning}
-\newcommand{\doctitle}{Project Report}
+\newcommand{\doctitle}{American Sign Language (ASL) Alphabet Classification}
 \newcommand{\name}{Abid Hassan, Benjamin Fein-Ashley}
 \newcommand{\todaydate}{\today}
 \DeclareMathOperator*{\argmin}{arg\,min}
@@ -48,7 +48,7 @@
 
 \begin{section}{Introduction}
     In this work, we utilize several deep learning algorithms to classify American Sign Language (ASL) alphabet letters from images, as well as real-time classification using live video. The dataset used for this project is the ASL Alphabet dataset \cite{kaggle2022aslalphabet}, which contains images of hand signs representing each letter of the ASL alphabet. The goal is to build a model that can accurately classify these hand signs into their corresponding letters.
-    We examine ResNet18 and DenseNet121 architectures, and compare their performance in terms of accuracy on a test dataset provided separately from the training dataset. The training data set contains 87,000 images which are 200x200 pixels. There are 29 classes, of which 26 are for the letters A-Z and 3 classes for space, delete, and nothing, which are intended to improve performance in real time classification.
+    We examine ResNet18 and DenseNet121 architectures, and compare their performance in terms of accuracy on a test dataset. The provided training dataset is split into 90 percent training and 10 percent test data, as the provided test set contains only one image per class. The whole data set contains 87,000 images which are 200x200 pixels, so 78,300 images are used in training and 8,700 for testing (300 per class). There are 29 classes, of which 26 are for the letters A-Z and 3 classes for space, delete, and nothing, which are intended to improve performance in real time classification.
     
     \subsection{Literature Review}
     A variety of machine learning and deep learning methods have been applied to sign language recognition with varying success.
@@ -57,8 +57,6 @@
     A study utilizing multiple deep learning models, including ResNet-50 and EfficientNet, showed significant success using transfer learning techniques, achieving accuracies up to 99.98\% with ResNet-50 \cite{mdpi2023resnet}.
     
     MobileNetV2 was employed as a lightweight architecture, achieving 98.77\% accuracy, suitable for real-time classification on resource-constrained devices \cite{techscience2022mobilenet}.
-    
-    A DeepCNN model combined with extensive data augmentation techniques was proposed, achieving 99.67\% accuracy \cite{ncbi2022deepcnn}.
     
     A novel hardware-based approach used neuromorphic sensors coupled with an artificial neural network implemented on an FPGA, achieving 79.58\% accuracy \cite{mdpi2017neuromorphic}. Although the accuracy of this method is lower than others, it represents a more practical system for real time application.
     
@@ -72,7 +70,6 @@
     \hline
     ResNet-50 (Transfer Learning) \cite{mdpi2023resnet} & 99.98 \\
     MobileNetV2 \cite{techscience2022mobilenet} & 98.77 \\
-    DeepCNN \cite{ncbi2022deepcnn} & 99.67 \\
     Neuromorphic Approach \cite{mdpi2017neuromorphic} & 79.58 \\
     PCA + SVM \cite{mdpi2023resnet} & 94.00 \\
     \hline
@@ -84,8 +81,23 @@
 
 \begin{section}{Methods}
     \subsection{Data Preprocessing}
-    The dataset is preprocessed by resizing the images to a uniform size of 200x200 pixels and normalizing the pixel values to be between 0 and 1. Data augmentation techniques such as rotation, flipping, and zooming are applied to increase the diversity of the training data and improve the model's generalization ability.
-
+    First, the data is split into 90 percent training and 10 percent for testing. The data is then preprocessed by resizing the images to a uniform size of 200x200 pixels and normalizing the pixel values to be between 0 and 1. Data augmentation techniques such as rotation, flipping, and zooming are applied to increase the diversity of the training data and improve the model's generalization ability.
+    \begin{table}[H]
+        \centering
+        \caption{Overview of Data Split and Image Specifications}
+        \label{tab:datasplit}
+        \begin{tabular}{|l|cl|}
+        \hline
+        \textbf{Category} & \textbf{Number of Images} & \textbf{Percentage} \\
+        \hline
+        Overall Dataset & 87,000 & 100\% \\
+        Training Set & 78,300 & 90\% \\
+        \quad Training (90\%) & 62,640 & 72\% \\ 
+        \quad Validation (10\%) & 15,660 & 18\% \\ 
+        Test Set & 8,700 & 10\% \\
+        \hline
+        \end{tabular}
+        \end{table}
     \subsection{Model Architecture}
     We implement two deep learning architectures,  ResNet18, and DenseNet121. These architectures are chosen for their proven performance in image classification tasks. The models are trained using the Adam optimizer with a learning rate of 0.01 and a batch size of 64. The loss function used is categorical cross-entropy.
     ResNet (Residual Network) employs skip (or residual) connections that allow the network to bypass one or more layers. This design aids in mitigating the vanishing gradient problem, thus facilitating the training of very deep networks. In contrast, DenseNet (Dense Convolutional Network) creates direct connections between all layers within a dense block, where each layer receives the concatenated output of all preceding layers. This dense connectivity enhances feature reuse and typically results in improved parameter efficiency.

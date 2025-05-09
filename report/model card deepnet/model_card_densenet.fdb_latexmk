@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex model_card_densenet"] 1746826937 "model_card_densenet.aux" "model_card_densenet.bbl" "model_card_densenet" 1746826939 0
+["bibtex model_card_densenet"] 1746831474 "model_card_densenet.aux" "model_card_densenet.bbl" "model_card_densenet" 1746831844 0
   "./references.bib" 1746824413 360 2b702ce84c3d315287f82a658b4244b9 ""
   "C:/Users/Benjamin/AppData/Local/Programs/MiKTeX/bibtex/bst/ieeetran/IEEEtran.bst" 1440622569 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
-  "model_card_densenet.aux" 1746826938 2126 13d4dfbf56b860fe3a01a68f3600e493 "pdflatex"
+  "model_card_densenet.aux" 1746831843 2391 57f9d6f3621aed9e34d9237e46d11f0b "pdflatex"
   (generated)
   "model_card_densenet.bbl"
   "model_card_densenet.blg"
   (rewritten before read)
-["pdflatex"] 1746826937 "c:/Users/Benjamin/Documents/American-Sign-Language/report/model card deepnet/model_card_densenet.tex" "model_card_densenet.pdf" "model_card_densenet" 1746826939 0
+["pdflatex"] 1746831841 "c:/Users/Benjamin/Documents/American-Sign-Language/report/model card deepnet/model_card_densenet.tex" "model_card_densenet.pdf" "model_card_densenet" 1746831844 0
   "../../plots/DenseNet121_ConfusionMatrix.png" 1746747264 65869 bc1d6fa074e0af1fc6facd87e7831876 ""
   "../../plots/DenseNet121_Visualize.png" 1746747264 477186 82a84f23b3d8367cab782b06cc3d78bf ""
   "../../plots/densenet_architecture.png" 1746824114 34831 9b9009dcb75606a9e6d6638cb055210f ""
@@ -107,11 +107,11 @@
   "C:/Users/Benjamin/AppData/Local/Programs/MiKTeX/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1657800696 9714 ba3194bd52c8499b3f1e3eb91d409670 ""
   "C:/Users/Benjamin/AppData/Local/Programs/MiKTeX/tex/latex/tools/calc.sty" 1667242266 10214 de3e21cfc0eccc98ca7f8dac0ef263d2 ""
   "C:/Users/Benjamin/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388494052 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "c:/Users/Benjamin/Documents/American-Sign-Language/report/model card deepnet/model_card_densenet.tex" 1746826934 3599 7f44cbce904b277dc37a41a507cdc25e ""
-  "model_card_densenet.aux" 1746826938 2126 13d4dfbf56b860fe3a01a68f3600e493 "pdflatex"
-  "model_card_densenet.bbl" 1746826937 1215 c1dee100cd497f6c57110b9cc2f1fca2 "bibtex model_card_densenet"
-  "model_card_densenet.out" 1746826938 574 8cee347e642bd7a335fb87bd27f5ae48 "pdflatex"
-  "model_card_densenet.tex" 1746826934 3599 7f44cbce904b277dc37a41a507cdc25e ""
+  "c:/Users/Benjamin/Documents/American-Sign-Language/report/model card deepnet/model_card_densenet.tex" 1746831841 4173 763ac14cb8c416d929676d246db1ee44 ""
+  "model_card_densenet.aux" 1746831843 2391 57f9d6f3621aed9e34d9237e46d11f0b "pdflatex"
+  "model_card_densenet.bbl" 1746831474 1215 c1dee100cd497f6c57110b9cc2f1fca2 "bibtex model_card_densenet"
+  "model_card_densenet.out" 1746831843 574 8cee347e642bd7a335fb87bd27f5ae48 "pdflatex"
+  "model_card_densenet.tex" 1746831841 4173 763ac14cb8c416d929676d246db1ee44 ""
   (generated)
   "model_card_densenet.aux"
   "model_card_densenet.log"

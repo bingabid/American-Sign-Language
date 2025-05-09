@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.4.22)  9 MAY 2025 14:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.4.22)  9 MAY 2025 16:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -462,40 +462,45 @@ Package caption Info: End \AtBeginDocument code.
 <../../plots/Original-ResNet-18-Architecture.png, id=23, 853.1875pt x 229.85875pt>
 File: ../../plots/Original-ResNet-18-Architecture.png Graphic file (type png)
 <use ../../plots/Original-ResNet-18-Architecture.png>
-Package pdftex.def Info: ../../plots/Original-ResNet-18-Architecture.png  used on input line 38.
+Package pdftex.def Info: ../../plots/Original-ResNet-18-Architecture.png  used on input line 29.
 (pdftex.def)             Requested size: 369.88583pt x 99.65454pt.
 
-Overfull \hbox (0.17932pt too wide) in paragraph at lines 43--45
+Underfull \hbox (badness 10000) in paragraph at lines 26--32
+
+ []
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 38.
+(C:\Users\Benjamin\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 38.
+ (C:\Users\Benjamin\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Overfull \hbox (0.17932pt too wide) in paragraph at lines 59--61
 \OT1/cmr/m/n/12 clas-si-fi-ca-tion. Our ResNet18 im-ple-men-ta-tion uses a pre-trained ResNet18
  []
 
 [1
 
 {C:/Users/Benjamin/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <../../plots/Original-ResNet-18-Architecture.png>]
-<../../plots/ResNet18_Visualize.png, id=37, 685.8423pt x 768.9528pt>
+<../../plots/ResNet18_Visualize.png, id=38, 685.8423pt x 768.9528pt>
 File: ../../plots/ResNet18_Visualize.png Graphic file (type png)
 <use ../../plots/ResNet18_Visualize.png>
-Package pdftex.def Info: ../../plots/ResNet18_Visualize.png  used on input line 58.
+Package pdftex.def Info: ../../plots/ResNet18_Visualize.png  used on input line 74.
 (pdftex.def)             Requested size: 295.90979pt x 331.78139pt.
-<../../plots/ResNet18_ConfusionMatrix.png, id=40, 575.2692pt x 616.4631pt>
+ [2]
+<../../plots/ResNet18_ConfusionMatrix.png, id=45, 575.2692pt x 616.4631pt>
 File: ../../plots/ResNet18_ConfusionMatrix.png Graphic file (type png)
 <use ../../plots/ResNet18_ConfusionMatrix.png>
-Package pdftex.def Info: ../../plots/ResNet18_ConfusionMatrix.png  used on input line 65.
+Package pdftex.def Info: ../../plots/ResNet18_ConfusionMatrix.png  used on input line 81.
 (pdftex.def)             Requested size: 295.90979pt x 317.10107pt.
-<../../plots/ResNet18_training.png, id=41, 395.3169pt x 312.9291pt>
+<../../plots/ResNet18_training.png, id=46, 395.3169pt x 312.9291pt>
 File: ../../plots/ResNet18_training.png Graphic file (type png)
 <use ../../plots/ResNet18_training.png>
-Package pdftex.def Info: ../../plots/ResNet18_training.png  used on input line 71.
+Package pdftex.def Info: ../../plots/ResNet18_training.png  used on input line 87.
 (pdftex.def)             Requested size: 295.90979pt x 234.23784pt.
- [2 <../../plots/ResNet18_Visualize.png>] [3 <../../plots/ResNet18_ConfusionMatrix.png>] (model_card_resnet18.bbl
-LaTeX Font Info:    Trying to load font information for U+msa on input line 28.
- (C:\Users\Benjamin\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 28.
- (C:\Users\Benjamin\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
+ [3 <../../plots/ResNet18_Visualize.png>] [4 <../../plots/ResNet18_ConfusionMatrix.png>] (model_card_resnet18.bbl
 Underfull \hbox (badness 5578) in paragraph at lines 25--30
 \OT1/cmr/m/n/12 and resid-ual neu-ral net-works,'' []$https : / / www . researchgate . net /
  []
@@ -515,22 +520,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--30
 \OT1/cmr/m/n/12 Stages[]Using[]Resting-[]State[]fMRI[]and[]Residual[]Neural[]Networks$[],
  []
 
-[4 <../../plots/ResNet18_training.png>]) [5] (model_card_resnet18.aux)
+[5 <../../plots/ResNet18_training.png>]) [6] (model_card_resnet18.aux)
 Package rerunfilecheck Info: File `model_card_resnet18.out' has not changed.
 (rerunfilecheck)             Checksum: 8CEE347E642BD7A335FB87BD27F5AE48;574.
  ) 
 Here is how much of TeX's memory you used:
- 14222 strings out of 476331
- 232922 string characters out of 5786349
- 1858660 words of memory out of 5000000
- 34453 multiletter control sequences out of 15000+600000
+ 14228 strings out of 476331
+ 233002 string characters out of 5786349
+ 1861660 words of memory out of 5000000
+ 34457 multiletter control sequences out of 15000+600000
  518182 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,7n,77p,424b,578s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,9n,77p,420b,578s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Benjamin\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/Benjamin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Benjamin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on model_card_resnet18.pdf (5 pages, 723356 bytes).
+Output written on model_card_resnet18.pdf (6 pages, 725067 bytes).
 PDF statistics:
- 88 PDF objects out of 1000 (max. 8388607)
- 17 named destinations out of 1000 (max. 500000)
+ 94 PDF objects out of 1000 (max. 8388607)
+ 19 named destinations out of 1000 (max. 500000)
  61 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex model_card_resnet18"] 1746825178 "model_card_resnet18.aux" "model_card_resnet18.bbl" "model_card_resnet18" 1746825180 0
+["bibtex model_card_resnet18"] 1746831508 "model_card_resnet18.aux" "model_card_resnet18.bbl" "model_card_resnet18" 1746831831 0
   "./references.bib" 1746822075 493 7d95cee47c1c5f0f6cb940becb452e54 ""
   "C:/Users/Benjamin/AppData/Local/Programs/MiKTeX/bibtex/bst/ieeetran/IEEEtran.bst" 1440622569 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
-  "model_card_resnet18.aux" 1746825180 2361 092e4570e67b4520bb9edeb49a222771 "pdflatex"
+  "model_card_resnet18.aux" 1746831830 2626 8d56bcfdefa801d6bd301b7eddbb4e65 "pdflatex"
   (generated)
   "model_card_resnet18.bbl"
   "model_card_resnet18.blg"
   (rewritten before read)
-["pdflatex"] 1746825178 "c:/Users/Benjamin/Documents/American-Sign-Language/report/model card resnet/model_card_resnet18.tex" "model_card_resnet18.pdf" "model_card_resnet18" 1746825180 0
+["pdflatex"] 1746831829 "c:/Users/Benjamin/Documents/American-Sign-Language/report/model card resnet/model_card_resnet18.tex" "model_card_resnet18.pdf" "model_card_resnet18" 1746831831 0
   "../../plots/Original-ResNet-18-Architecture.png" 1746821591 44963 d13f12b1ced5a8f1245c6beb4e77e4ea ""
   "../../plots/ResNet18_ConfusionMatrix.png" 1746747264 65109 2832efd570277fc897b70da0c2f99dc8 ""
   "../../plots/ResNet18_Visualize.png" 1746747264 471334 ee6ed097e30c9853559cbdc0a10df079 ""
@@ -108,11 +108,11 @@
   "C:/Users/Benjamin/AppData/Local/Programs/MiKTeX/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1657800696 9714 ba3194bd52c8499b3f1e3eb91d409670 ""
   "C:/Users/Benjamin/AppData/Local/Programs/MiKTeX/tex/latex/tools/calc.sty" 1667242266 10214 de3e21cfc0eccc98ca7f8dac0ef263d2 ""
   "C:/Users/Benjamin/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388494052 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "c:/Users/Benjamin/Documents/American-Sign-Language/report/model card resnet/model_card_resnet18.tex" 1746825177 3866 708f64014b32563f396e4604f58ba378 ""
-  "model_card_resnet18.aux" 1746825180 2361 092e4570e67b4520bb9edeb49a222771 "pdflatex"
-  "model_card_resnet18.bbl" 1746825178 1366 ae9550824fba8cd27788138694e5abe5 "bibtex model_card_resnet18"
-  "model_card_resnet18.out" 1746825180 574 8cee347e642bd7a335fb87bd27f5ae48 "pdflatex"
-  "model_card_resnet18.tex" 1746825177 3866 708f64014b32563f396e4604f58ba378 ""
+  "c:/Users/Benjamin/Documents/American-Sign-Language/report/model card resnet/model_card_resnet18.tex" 1746831828 4439 fa6cea35a6835f07516b1377d5e70aca ""
+  "model_card_resnet18.aux" 1746831830 2626 8d56bcfdefa801d6bd301b7eddbb4e65 "pdflatex"
+  "model_card_resnet18.bbl" 1746831508 1366 ae9550824fba8cd27788138694e5abe5 "bibtex model_card_resnet18"
+  "model_card_resnet18.out" 1746831830 574 8cee347e642bd7a335fb87bd27f5ae48 "pdflatex"
+  "model_card_resnet18.tex" 1746831828 4439 fa6cea35a6835f07516b1377d5e70aca ""
   (generated)
   "model_card_resnet18.aux"
   "model_card_resnet18.log"

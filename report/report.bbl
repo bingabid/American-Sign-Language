@@ -43,14 +43,6 @@ Techscience, ``A lightweight mobilenetv2 for american sign language
   \url{https://www.techscience.com/iasc/v35n3/49360}
 \BIBentrySTDinterwordspacing
 
-\bibitem{ncbi2022deepcnn}
-\BIBentryALTinterwordspacing
-NCBI, ``American sign language recognition using a deep convolutional neural
-  network with data augmentation,'' \emph{Journal of Medical Internet
-  Research}, vol.~24, 2022. [Online]. Available:
-  \url{https://pmc.ncbi.nlm.nih.gov/articles/PMC9078784/}
-\BIBentrySTDinterwordspacing
-
 \bibitem{mdpi2017neuromorphic}
 \BIBentryALTinterwordspacing
 Mdpi, ``Neuromorphic vision-based recognition of american sign language letters
