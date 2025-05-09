@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.4.22)  9 MAY 2025 15:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.4.22)  9 MAY 2025 14:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/Benjamin/Documents/American-Sign-Language/report/report.tex
-(c:/Users/Benjamin/Documents/American-Sign-Language/report/report.tex
+**"c:/Users/Benjamin/Documents/American-Sign-Language/report/model card resnet/model_card_resnet18.tex"
+(c:/Users/Benjamin/Documents/American-Sign-Language/report/model card resnet/model_card_resnet18.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-03-30> (C:\Users\Benjamin\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
@@ -376,27 +376,27 @@ Package: cite 2015/02/27  v 5.5
 File: l3backend-pdftex.def 2023-03-30 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count304
 \l__pdf_internal_box=\box59
-) (report.aux)
-\openout1 = `report.aux'.
+) (model_card_resnet18.aux)
+\openout1 = `model_card_resnet18.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -451,87 +451,86 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Users\Benjamin\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 29.
- (report.out) (report.out)
+Package hyperref Info: Link coloring OFF on input line 19.
+ (model_card_resnet18.out) (model_card_resnet18.out)
 \@outlinefile=\write3
-\openout3 = `report.out'.
+\openout3 = `model_card_resnet18.out'.
 
 \c@lstlisting=\count311
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
- [1
+<../../plots/Original-ResNet-18-Architecture.png, id=23, 853.1875pt x 229.85875pt>
+File: ../../plots/Original-ResNet-18-Architecture.png Graphic file (type png)
+<use ../../plots/Original-ResNet-18-Architecture.png>
+Package pdftex.def Info: ../../plots/Original-ResNet-18-Architecture.png  used on input line 38.
+(pdftex.def)             Requested size: 369.88583pt x 99.65454pt.
 
-{C:/Users/Benjamin/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 69.
+Overfull \hbox (0.17932pt too wide) in paragraph at lines 43--45
+\OT1/cmr/m/n/12 clas-si-fi-ca-tion. Our ResNet18 im-ple-men-ta-tion uses a pre-trained ResNet18
+ []
+
+[1
+
+{C:/Users/Benjamin/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <../../plots/Original-ResNet-18-Architecture.png>]
+<../../plots/ResNet18_Visualize.png, id=37, 685.8423pt x 768.9528pt>
+File: ../../plots/ResNet18_Visualize.png Graphic file (type png)
+<use ../../plots/ResNet18_Visualize.png>
+Package pdftex.def Info: ../../plots/ResNet18_Visualize.png  used on input line 58.
+(pdftex.def)             Requested size: 295.90979pt x 331.78139pt.
+<../../plots/ResNet18_ConfusionMatrix.png, id=40, 575.2692pt x 616.4631pt>
+File: ../../plots/ResNet18_ConfusionMatrix.png Graphic file (type png)
+<use ../../plots/ResNet18_ConfusionMatrix.png>
+Package pdftex.def Info: ../../plots/ResNet18_ConfusionMatrix.png  used on input line 65.
+(pdftex.def)             Requested size: 295.90979pt x 317.10107pt.
+<../../plots/ResNet18_training.png, id=41, 395.3169pt x 312.9291pt>
+File: ../../plots/ResNet18_training.png Graphic file (type png)
+<use ../../plots/ResNet18_training.png>
+Package pdftex.def Info: ../../plots/ResNet18_training.png  used on input line 71.
+(pdftex.def)             Requested size: 295.90979pt x 234.23784pt.
+ [2 <../../plots/ResNet18_Visualize.png>] [3 <../../plots/ResNet18_ConfusionMatrix.png>] (model_card_resnet18.bbl
+LaTeX Font Info:    Trying to load font information for U+msa on input line 28.
  (C:\Users\Benjamin\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 69.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 28.
  (C:\Users\Benjamin\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (9.00468pt too wide) in paragraph at lines 81--82
-[]\OT1/cmr/m/n/12 Although com-pu-ta-tion-ally ex-pen-sive, ResNet mod-els are able to achieve
+Underfull \hbox (badness 5578) in paragraph at lines 25--30
+\OT1/cmr/m/n/12 and resid-ual neu-ral net-works,'' []$https : / / www . researchgate . net /
  []
 
 
-Overfull \hbox (4.82231pt too wide) in paragraph at lines 81--82
-\OT1/cmr/m/n/12 and em-bed-ded ar-chi-tec-tures also achieve high ac-cu-racy. Non deep-learning
+Underfull \hbox (badness 10000) in paragraph at lines 25--30
+\OT1/cmr/m/n/12 publication / 336642248[]A[]Deep[]Learning[]Approach[]for[]Automated[]
  []
 
-[2]
-Overfull \hbox (14.64491pt too wide) in paragraph at lines 90--92
-\OT1/cmr/m/n/12 We im-ple-ment two deep learn-ing ar-chi-tec-tures, ResNet18, and DenseNet121.
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--30
+\OT1/cmr/m/n/12 Diagnosis[]and[]Multi-[]Class[]Classi^^Lcation[]of[]Alzheimer '[] s[]Disease[]
  []
 
-[3]
-<../plots/ResNet18_training.png, id=78, 395.3169pt x 312.9291pt>
-File: ../plots/ResNet18_training.png Graphic file (type png)
-<use ../plots/ResNet18_training.png>
-Package pdftex.def Info: ../plots/ResNet18_training.png  used on input line 122.
-(pdftex.def)             Requested size: 166.4475pt x 131.75877pt.
-<../plots/DenseNet121_training.png, id=80, 395.3169pt x 312.9291pt>
-File: ../plots/DenseNet121_training.png Graphic file (type png)
-<use ../plots/DenseNet121_training.png>
-Package pdftex.def Info: ../plots/DenseNet121_training.png  used on input line 129.
-(pdftex.def)             Requested size: 166.4475pt x 131.75877pt.
-<../plots/ResNet18_Visualize.png, id=81, 685.8423pt x 768.9528pt>
-File: ../plots/ResNet18_Visualize.png Graphic file (type png)
-<use ../plots/ResNet18_Visualize.png>
-Package pdftex.def Info: ../plots/ResNet18_Visualize.png  used on input line 138.
-(pdftex.def)             Requested size: 184.94292pt x 207.35016pt.
-<../plots/DenseNet121_Visualize.png, id=82, 685.8423pt x 768.9528pt>
-File: ../plots/DenseNet121_Visualize.png Graphic file (type png)
-<use ../plots/DenseNet121_Visualize.png>
-Package pdftex.def Info: ../plots/DenseNet121_Visualize.png  used on input line 144.
-(pdftex.def)             Requested size: 184.94292pt x 207.35016pt.
- [4 <../plots/ResNet18_training.png> <../plots/DenseNet121_training.png>]
-<../plots/real_time_sample.png, id=91, 477.28313pt x 375.65344pt>
-File: ../plots/real_time_sample.png Graphic file (type png)
-<use ../plots/real_time_sample.png>
-Package pdftex.def Info: ../plots/real_time_sample.png  used on input line 153.
-(pdftex.def)             Requested size: 166.4475pt x 131.00491pt.
-<../plots/real_time_sample2.png, id=92, 478.03593pt x 376.40625pt>
-File: ../plots/real_time_sample2.png Graphic file (type png)
-<use ../plots/real_time_sample2.png>
-Package pdftex.def Info: ../plots/real_time_sample2.png  used on input line 160.
-(pdftex.def)             Requested size: 166.4475pt x 131.06067pt.
- [5 <../plots/ResNet18_Visualize.png> <../plots/DenseNet121_Visualize.png>] (report.bbl [6 <../plots/real_time_sample.png> <../plots/real_time_sample2.png>]) [7] (report.aux)
-Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: F619871EA40AA8F3F909134C4F01EAC2;1263.
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--30
+\OT1/cmr/m/n/12 Stages[]Using[]Resting-[]State[]fMRI[]and[]Residual[]Neural[]Networks$[],
+ []
+
+[4 <../../plots/ResNet18_training.png>]) [5] (model_card_resnet18.aux)
+Package rerunfilecheck Info: File `model_card_resnet18.out' has not changed.
+(rerunfilecheck)             Checksum: 8CEE347E642BD7A335FB87BD27F5AE48;574.
  ) 
 Here is how much of TeX's memory you used:
- 14284 strings out of 476331
- 233509 string characters out of 5786349
- 1859660 words of memory out of 5000000
- 34499 multiletter control sequences out of 15000+600000
- 519098 words of font info for 57 fonts, out of 8000000 for 9000
+ 14222 strings out of 476331
+ 232922 string characters out of 5786349
+ 1858660 words of memory out of 5000000
+ 34453 multiletter control sequences out of 15000+600000
+ 518182 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,9n,77p,1002b,636s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Benjamin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Benjamin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Benjamin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Benjamin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Benjamin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on report.pdf (7 pages, 1868244 bytes).
+ 75i,7n,77p,424b,578s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\Benjamin\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/Benjamin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Benjamin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb>
+Output written on model_card_resnet18.pdf (5 pages, 723356 bytes).
 PDF statistics:
- 153 PDF objects out of 1000 (max. 8388607)
- 30 named destinations out of 1000 (max. 500000)
- 111 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 88 PDF objects out of 1000 (max. 8388607)
+ 17 named destinations out of 1000 (max. 500000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
 

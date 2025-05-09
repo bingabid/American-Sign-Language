@@ -21,6 +21,13 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
+\bibitem{kaggle2022aslalphabet}
+\BIBentryALTinterwordspacing
+Grassknoted, ``American sign language alphabet,'' 2022, kaggle dataset.
+  [Online]. Available:
+  \url{https://www.kaggle.com/datasets/grassknoted/asl-alphabet?resource=download}
+\BIBentrySTDinterwordspacing
+
 \bibitem{mdpi2023resnet}
 \BIBentryALTinterwordspacing
 Mdpi, ``American sign language alphabet recognition using deep learning and

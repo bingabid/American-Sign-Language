@@ -1,6 +1,6 @@
 This is BibTeX, Version 0.99d
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
-The top-level auxiliary file: report.aux
+The top-level auxiliary file: model_card_resnet18.aux
 Reallocating 'name_of_file' (item size: 1) to 9 items.
 The style file: IEEEtran.bst
 Reallocating 'name_of_file' (item size: 1) to 11 items.
@@ -15,44 +15,44 @@ Database file #1: references.bib
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
 
 Done.
-You've used 5 entries,
+You've used 1 entry,
             4087 wiz_defined-function locations,
-            854 strings with 8170 characters,
-and the built_in function-call counts, 2930 in all, are:
-= -- 272
-> -- 28
-< -- 17
-+ -- 16
-- -- 5
-* -- 155
-:= -- 564
-add.period$ -- 10
-call.type$ -- 5
-change.case$ -- 6
-chr.to.int$ -- 24
-cite$ -- 5
-duplicate$ -- 218
-empty$ -- 214
-format.name$ -- 5
-if$ -- 633
+            825 strings with 7744 characters,
+and the built_in function-call counts, 418 in all, are:
+= -- 23
+> -- 1
+< -- 0
++ -- 1
+- -- 0
+* -- 28
+:= -- 78
+add.period$ -- 2
+call.type$ -- 1
+change.case$ -- 2
+chr.to.int$ -- 0
+cite$ -- 1
+duplicate$ -- 31
+empty$ -- 36
+format.name$ -- 0
+if$ -- 75
 int.to.chr$ -- 0
-int.to.str$ -- 5
-missing$ -- 37
-newline$ -- 48
-num.names$ -- 5
-pop$ -- 64
+int.to.str$ -- 1
+missing$ -- 7
+newline$ -- 26
+num.names$ -- 0
+pop$ -- 22
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 235
+skip$ -- 25
 stack$ -- 0
-substring$ -- 71
-swap$ -- 164
-text.length$ -- 9
+substring$ -- 3
+swap$ -- 15
+text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 5
+type$ -- 1
 warning$ -- 0
-while$ -- 10
-width$ -- 6
-write$ -- 86
+while$ -- 0
+width$ -- 2
+write$ -- 29
